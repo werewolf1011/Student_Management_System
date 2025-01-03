@@ -1,0 +1,5 @@
+User#,First Name,Last Name,Gender,Birth Date,Email,Username,Password,Designation,Year,ImageUrl,Phone,Faculty
+2010,Jenish,Shahi,male,2006-01-19,jenish2010@gmail.com,jenish,$2a$10$t38qDI5j15fVkA6GqMOqq.CB1QY4GaosT5ODjzGlfqaFVkrInYeVy,Student,2021,file:download.jpg,9812345678,BCS
+1010,Anusha,Bista,female,2003-03-24,anusha1010@gmail.com,anusha11,$2a$10$HPLY7YGpYd/SVt8nJfdR6.vPXvsCTszJF/Gw2JS6IYblbQmJsGgt2,Student,2021,,9621763298,BSC
+2011,Bibek,Thapa,male,1999-07-13,bibek2011@gmail.com,bibek11,$2a$10$trCyWHVF20oqdE8fsxkoyOW7djVjmymSRlIcvUKL12MulHpmxqoqC,Student,2022,,9789674578,BBA
+123456,Rina,Will,female,2002-08-14,rina@gmail.com,rina11,$2a$10$03foop.SSjLhqirfpPyoSueWgNRYQ94U9ECqefj4je1DSKoCLYCzi,Student,2023,file:/C:/Users/werewolf/Desktop/OIP.jpg,9000000000,BSC

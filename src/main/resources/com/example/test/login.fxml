@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.test.loginController">
+   <AnchorPane prefHeight="530.0" prefWidth="602.0">
+      <AnchorPane prefHeight="403.0" prefWidth="300.0" styleClass="left-form" stylesheets="@login.css">
+         <Label layoutX="16.0" layoutY="202.0" prefHeight="26.0" prefWidth="268.0" text="Student Management System" textFill="WHITE">
+            <font>
+               <Font name="Tahoma" size="20.0" />
+            </font>
+         </Label>
+         <FontAwesomeIconView fill="WHITE" glyphName="GRADUATION_CAP" layoutX="73.0" layoutY="183.0" size="10em" />
+      </AnchorPane>
+      <AnchorPane layoutX="299.0" prefHeight="403.0" prefWidth="302.0" styleClass="right-form" stylesheets="@login.css">
+         <FontAwesomeIconView glyphName="USER" layoutX="120.0" layoutY="92.0" size="5em" />
+         <TextField fx:id="username" layoutX="53.0" layoutY="163.0" prefHeight="26.0" prefWidth="184.0" promptText="Username" styleClass="textfield" stylesheets="@login.css" />
+         <PasswordField fx:id="password" layoutX="53.0" layoutY="210.0" prefHeight="26.0" prefWidth="184.0" promptText="Password" styleClass="textfield" stylesheets="@login.css" />
+         <Button fx:id="login" layoutX="53.0" layoutY="258.0" mnemonicParsing="false" onAction="#login" prefHeight="26.0" prefWidth="184.0" styleClass="login-btn" stylesheets="@login.css" text="Login">
+            <font>
+               <Font name="Tahoma Bold" size="12.0" />
+            </font>
+         </Button>
+         <Button fx:id="close" layoutX="248.0" layoutY="-2.0" mnemonicParsing="false" onAction="#close" prefHeight="26.0" prefWidth="53.0" styleClass="close" stylesheets="@login.css">
+            <graphic>
+               <FontAwesomeIconView glyphName="CLOSE" size="1.2em" />
+            </graphic></Button>
+         <Label layoutX="67.0" layoutY="114.0" text="Welcome Back !!">
+            <font>
+               <Font name="Tahoma Bold" size="18.0" />
+            </font>
+         </Label>
+
+         <Label fx:id="loginError" layoutX="53.0" layoutY="137.0" text="Invalid username or password" textFill="RED" visible="false" />
+      </AnchorPane>
+   </AnchorPane>
+</StackPane>
